@@ -1475,9 +1475,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Buzzer"
+		(exclude_from_sim no)
+		(at 74.422 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07441b1a-1be9-47b9-a58d-7c2bbbd022f3")
+	)
 	(text "beep beep"
 		(exclude_from_sim no)
-		(at 205.232 109.22 0)
+		(at 168.402 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1486,6 +1496,16 @@
 			)
 		)
 		(uuid "86ef6594-5e55-4113-9186-350657b1d504")
+	)
+	(text "bz+"
+		(exclude_from_sim no)
+		(at 73.66 93.98 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6130087-ac77-4d1e-b676-4a1222928584")
 	)
 	(text "for elrs receiver"
 		(exclude_from_sim no)
@@ -1498,10 +1518,10 @@
 		(uuid "f4bae022-82b3-475f-9e03-a73c27c49edd")
 	)
 	(junction
-		(at 207.01 120.65)
+		(at 170.18 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ebc4e67-dd73-41fb-adce-8dea5232026a")
+		(uuid "082de258-7c12-49f8-a4d5-c1ee8b8df022")
 	)
 	(junction
 		(at 143.51 48.26)
@@ -1510,7 +1530,7 @@
 		(uuid "19b626da-f185-480d-a6f0-728fe295abd7")
 	)
 	(junction
-		(at 218.44 130.81)
+		(at 181.61 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c13ac53-3b31-4157-aa6e-af665a977fbf")
@@ -1522,20 +1542,20 @@
 		(uuid "41a7be80-1dac-44b7-ae1a-6de85735aa60")
 	)
 	(junction
-		(at 236.22 80.01)
+		(at 134.62 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fdbf0e7-cb07-49de-95a1-6ed4f67ffe6d")
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 228.6 86.36)
+			(xy 125.73 111.76) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07af7f63-da57-45d9-aa8b-266a2dc3ac38")
+		(uuid "07f2954b-befa-47b8-bebf-70c01cbe0b8a")
 	)
 	(wire
 		(pts
@@ -1569,17 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 64.77) (xy 130.81 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10bc7f4f-56ee-4191-9bd7-ac59ad02a53d")
-	)
-	(wire
-		(pts
-			(xy 218.44 106.68) (xy 218.44 115.57)
+			(xy 181.61 96.52) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 130.81) (xy 218.44 130.81)
+			(xy 170.18 120.65) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1629,6 +1639,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 110.49) (xy 170.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dce5ad-53df-4e7c-9325-acfbbfe8ad7a")
+	)
+	(wire
+		(pts
 			(xy 130.81 48.26) (xy 130.81 49.53)
 		)
 		(stroke
@@ -1649,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 80.01) (xy 240.03 80.01)
+			(xy 134.62 105.41) (xy 138.43 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1726,16 +1746,6 @@
 			(type default)
 		)
 		(uuid "590babc5-a1d2-4f13-8867-402e7051e6d6")
-	)
-	(wire
-		(pts
-			(xy 138.43 64.77) (xy 138.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cd02e53-d4b9-4d9d-8a2d-7b5177070b8b")
 	)
 	(wire
 		(pts
@@ -1819,16 +1829,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 120.65) (xy 207.01 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74171874-a27d-4728-9f16-43cac423f2bd")
-	)
-	(wire
-		(pts
 			(xy 66.04 113.03) (xy 66.04 114.3)
 		)
 		(stroke
@@ -1836,16 +1836,6 @@
 			(type default)
 		)
 		(uuid "7d7acbc2-af4f-4c56-aa1a-d41f241a2f30")
-	)
-	(wire
-		(pts
-			(xy 73.66 87.63) (xy 73.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dbfda83-679b-4d61-b344-0e63cf99518b")
 	)
 	(wire
 		(pts
@@ -1859,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 80.01) (xy 236.22 77.47)
+			(xy 134.62 105.41) (xy 134.62 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1879,17 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 64.77) (xy 143.51 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ccd5d5-e2c7-4eea-99f1-e51ff1470078")
-	)
-	(wire
-		(pts
-			(xy 218.44 128.27) (xy 218.44 130.81)
+			(xy 181.61 118.11) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 130.81) (xy 218.44 132.08)
+			(xy 181.61 120.65) (xy 181.61 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1979,6 +1959,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 88.9) (xy 73.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc95e61-a2a0-4698-a8dd-3c2acf57d7e0")
+	)
+	(wire
+		(pts
 			(xy 73.66 62.23) (xy 73.66 63.5)
 		)
 		(stroke
@@ -1999,17 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 64.77) (xy 133.35 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba04b3d0-3968-4d8c-aef4-aef4aa5483af")
-	)
-	(wire
-		(pts
-			(xy 207.01 120.65) (xy 210.82 120.65)
+			(xy 170.18 110.49) (xy 173.99 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 80.01) (xy 236.22 81.28)
+			(xy 134.62 105.41) (xy 134.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2029,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 120.65) (xy 207.01 123.19)
+			(xy 71.12 71.12) (xy 71.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78f700e-dc0c-4f36-871f-61f686839212")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.49) (xy 170.18 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2079,16 +2069,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 64.77) (xy 128.27 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0da7d6-fd21-4734-8edb-104407b09e37")
-	)
-	(wire
-		(pts
 			(xy 68.58 138.43) (xy 68.58 139.7)
 		)
 		(stroke
@@ -2096,16 +2076,6 @@
 			(type default)
 		)
 		(uuid "e4815614-e2a3-4334-9a9f-826da903b7d6")
-	)
-	(wire
-		(pts
-			(xy 140.97 64.77) (xy 140.97 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e745df0e-a8da-48d4-85f5-b6db5fbd13f8")
 	)
 	(wire
 		(pts
@@ -2169,26 +2139,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 64.77) (xy 125.73 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f87e6295-bb94-4fac-b0e1-7120e48742da")
-	)
-	(wire
-		(pts
-			(xy 135.89 64.77) (xy 135.89 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8acc8e-0f3a-4ed3-abaf-2404b031c797")
-	)
-	(wire
-		(pts
 			(xy 63.5 138.43) (xy 63.5 139.7)
 		)
 		(stroke
@@ -2197,36 +2147,123 @@
 		)
 		(uuid "ffb01475-0bc7-4206-a16c-33957f634956")
 	)
-	(label "BEEPER"
-		(at 195.58 120.65 0)
+	(global_label "BZ-"
+		(shape input)
+		(at 76.2 88.9 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "58225705-0831-4eb5-a4a1-dab3377d8bc0")
-	)
-	(label "LED_STRIP_L"
-		(at 214.63 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "3a5aedb2-24ac-453d-aca7-d7eb9badcb48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 95.9371 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
-			(justify left bottom)
 		)
-		(uuid "f95320d3-0de3-4d46-bdcd-18b87d00b8c8")
 	)
-	(hierarchical_label "LED_STRIP"
-		(shape output)
-		(at 240.03 80.01 0)
+	(global_label "BZ-"
+		(shape input)
+		(at 181.61 96.52 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "052497b5-1e3f-424c-b36a-2c7ebbbbda7d")
+		(uuid "5cdaaf62-6ce5-419f-a9f0-0c684d001f62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 89.4829 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_STRIP"
+		(shape input)
+		(at 138.43 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88f4734a-51be-4e56-8992-35924988a6dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1518 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_STRIP"
+		(shape input)
+		(at 83.82 114.3 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffd14b06-41d8-4380-8a16-03719d5ff329")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 127.0218 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "BEEPER"
+		(shape input)
+		(at 168.91 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0267e29f-7390-4421-8bf2-e0525d8a421e")
+	)
+	(hierarchical_label "NEOPIXELS"
+		(shape input)
+		(at 125.73 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "070e644f-ac4c-43c3-8c39-6b1df33bc8a8")
 	)
 	(hierarchical_label "CUR"
 		(shape input)
@@ -2250,7 +2287,7 @@
 		)
 		(uuid "1042ee1b-7bd0-4581-ae7d-4dbccf37ab5a")
 	)
-	(hierarchical_label "VTX"
+	(hierarchical_label "VTX_OUT"
 		(shape input)
 		(at 76.2 114.3 270)
 		(effects
@@ -2261,16 +2298,16 @@
 		)
 		(uuid "12e43b1d-1699-45e4-91c2-175c3324e229")
 	)
-	(hierarchical_label "BZ-"
+	(hierarchical_label "T2"
 		(shape input)
-		(at 76.2 88.9 270)
+		(at 160.02 49.53 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "1e71ec51-d6bc-45a1-b92b-7db781d37ec4")
+		(uuid "221fe6eb-f98c-44d7-96be-ac059214853e")
 	)
 	(hierarchical_label "G"
 		(shape input)
@@ -2360,17 +2397,6 @@
 		)
 		(uuid "3ad6d879-e554-4e84-88e3-7b7d8dec4ecd")
 	)
-	(hierarchical_label "BUZZER-"
-		(shape output)
-		(at 218.44 106.68 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d7c2df8-97fd-4759-85ab-93b2dff03117")
-	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 66.04 114.3 270)
@@ -2381,6 +2407,17 @@
 			(justify right)
 		)
 		(uuid "3f1b0fb1-9411-4b4f-bc7c-e5fae4f9d7d5")
+	)
+	(hierarchical_label "R2"
+		(shape input)
+		(at 162.56 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "486c6567-218a-4535-aad2-c9fa5b5b2407")
 	)
 	(hierarchical_label "T1"
 		(shape input)
@@ -2472,7 +2509,7 @@
 	)
 	(hierarchical_label "CC"
 		(shape input)
-		(at 71.12 63.5 270)
+		(at 71.12 72.39 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2480,17 +2517,6 @@
 			(justify right)
 		)
 		(uuid "75668dcf-a210-4150-903c-c3cedeff5cf3")
-	)
-	(hierarchical_label "M1"
-		(shape input)
-		(at 138.43 66.04 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76d576d2-8c83-48b4-b800-2f5b32366c73")
 	)
 	(hierarchical_label "BAT"
 		(shape input)
@@ -2503,17 +2529,6 @@
 		)
 		(uuid "782f9544-8f89-4e0f-b4e0-21b475e900db")
 	)
-	(hierarchical_label "TEL"
-		(shape input)
-		(at 125.73 66.04 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "797206fc-a2c8-43f5-9f6d-15a72536bdb9")
-	)
 	(hierarchical_label "G"
 		(shape input)
 		(at 76.2 139.7 270)
@@ -2525,17 +2540,6 @@
 		)
 		(uuid "7c110414-5d99-4a63-81a8-37a036df3161")
 	)
-	(hierarchical_label "LED"
-		(shape input)
-		(at 83.82 114.3 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ffd0d76-98a0-4d99-88ca-a9dbe996569b")
-	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 68.58 114.3 270)
@@ -2546,28 +2550,6 @@
 			(justify right)
 		)
 		(uuid "94d1b252-1090-4277-873a-db0938107673")
-	)
-	(hierarchical_label "M2"
-		(shape input)
-		(at 135.89 66.04 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9687bf5e-3e0c-4945-8361-c42f505dbe82")
-	)
-	(hierarchical_label "G"
-		(shape input)
-		(at 143.51 66.04 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a090260f-5423-4a5e-b290-c576b01ec852")
 	)
 	(hierarchical_label "M1"
 		(shape input)
@@ -2635,17 +2617,6 @@
 		)
 		(uuid "af3da365-2b98-4f3e-9a54-36f4c1c3c33b")
 	)
-	(hierarchical_label "BZ+"
-		(shape input)
-		(at 73.66 88.9 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1a7005e-c4c9-41e5-9615-b82249dffe99")
-	)
 	(hierarchical_label "M3"
 		(shape input)
 		(at 133.35 49.53 270)
@@ -2656,17 +2627,6 @@
 			(justify right)
 		)
 		(uuid "bed7aff4-188b-41dd-a720-87c9290c4955")
-	)
-	(hierarchical_label "M3"
-		(shape input)
-		(at 133.35 66.04 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0017bd6-9956-4ec5-81da-813946952995")
 	)
 	(hierarchical_label "5v"
 		(shape input)
@@ -2679,17 +2639,6 @@
 		)
 		(uuid "c0a6d116-911e-4c08-99fd-37b112d7b39a")
 	)
-	(hierarchical_label "M4"
-		(shape input)
-		(at 130.81 66.04 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c433b7ce-8de1-445d-b404-efc99a795b9d")
-	)
 	(hierarchical_label "3v3"
 		(shape input)
 		(at 73.66 63.5 270)
@@ -2700,17 +2649,6 @@
 			(justify right)
 		)
 		(uuid "c92b2348-9347-441c-85d8-16cb4a8b4e48")
-	)
-	(hierarchical_label "BAT"
-		(shape input)
-		(at 140.97 66.04 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d17695c5-cdee-4e42-9bf2-ec6cf42f31cd")
 	)
 	(hierarchical_label "G"
 		(shape input)
@@ -2756,38 +2694,16 @@
 		)
 		(uuid "e36dc651-8adc-44ac-a209-5a4a603dfdc4")
 	)
-	(hierarchical_label "CUR"
+	(hierarchical_label "5v"
 		(shape input)
-		(at 128.27 66.04 270)
+		(at 73.66 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e63a7ce7-45da-4277-b86e-d950c5dcdc20")
-	)
-	(hierarchical_label "ELRS_TX"
-		(shape input)
-		(at 160.02 49.53 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb39ea94-d495-4ee9-a2bc-a6f97727b773")
-	)
-	(hierarchical_label "ELRS_RX"
-		(shape input)
-		(at 162.56 49.53 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eeaa324f-f780-4040-8e29-f10598f821ea")
+		(uuid "f03c63de-398d-47e2-87fc-03949e952d24")
 	)
 	(hierarchical_label "T3"
 		(shape input)
@@ -2800,7 +2716,7 @@
 		)
 		(uuid "f5c2f38d-f30d-4392-94e6-6d520f31807c")
 	)
-	(hierarchical_label "CAM"
+	(hierarchical_label "CAM_IN"
 		(shape input)
 		(at 68.58 63.5 270)
 		(effects
@@ -2813,17 +2729,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 68.58 82.55 90)
+		(at 73.66 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "0391785d-3bd5-4a8c-a87c-5b8fa6f127bf")
-		(property "Reference" "J10"
-			(at 67.056 79.756 90)
+		(uuid "00692ee9-7098-4580-a046-7a9a9b2c03de")
+		(property "Reference" "J17"
+			(at 72.136 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2834,7 +2750,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 67.056 79.248 90)
+			(at 72.136 79.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" "lib:small_pad"
-			(at 68.58 82.55 0)
+			(at 73.66 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,7 +2773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 82.55 0)
+			(at 73.66 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2868,7 +2784,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 82.55 0)
+			(at 73.66 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,12 +2795,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b856700-2341-4d84-b23f-c3aa2b1eff50")
+			(uuid "799d5566-af31-472c-a708-1341f20c6a7b")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J10")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -2892,17 +2808,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 133.35 59.69 90)
+		(at 78.74 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "056021b2-3497-43df-8307-2da25f9ec5c8")
-		(property "Reference" "J36"
-			(at 131.826 56.896 90)
+		(uuid "05658308-9a0d-4bd8-8f2a-18e465b4e626")
+		(property "Reference" "J25"
+			(at 77.216 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2913,7 +2829,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 131.826 56.388 90)
+			(at 77.216 79.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,7 +2841,7 @@
 			)
 		)
 		(property "Footprint" "lib:small_pad"
-			(at 133.35 59.69 0)
+			(at 78.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +2852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 59.69 0)
+			(at 78.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,7 +2863,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 59.69 0)
+			(at 78.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2958,91 +2874,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0c77185-6db6-4104-a8e7-c05ce792c2bb")
+			(uuid "839a1cd5-bcef-4bbc-8a67-2794a1970a3d")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 68.58 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "06379f85-8fcc-4362-a3dd-160d4d6a1b4c")
-		(property "Reference" "J3"
-			(at 67.056 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 67.056 53.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 68.58 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee1c2200-d6ec-4ce0-b9bb-b61deb2a09fa")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J3")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -3050,7 +2887,7 @@
 	)
 	(symbol
 		(lib_id "lib:DMN1150UFB-7B")
-		(at 236.22 86.36 0)
+		(at 134.62 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3060,8 +2897,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d39a4cf-89e4-4a0d-b5f2-da282af0096c")
-		(property "Reference" "Q6"
-			(at 241.3 86.3599 0)
+		(property "Reference" "Q1"
+			(at 139.7 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3072,7 +2909,7 @@
 			)
 		)
 		(property "Value" "AP1606"
-			(at 241.3 88.8999 0)
+			(at 139.7 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3083,7 +2920,7 @@
 			)
 		)
 		(property "Footprint" "lib:DFN-3L_L1.0-W0.6-P0.65-BR"
-			(at 236.22 101.6 0)
+			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +2931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 86.36 0)
+			(at 134.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3105,7 +2942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 86.36 0)
+			(at 134.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3116,7 +2953,7 @@
 			)
 		)
 		(property "LCSC" "C2849580"
-			(at 236.22 104.14 0)
+			(at 134.62 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3127,7 +2964,7 @@
 			)
 		)
 		(property "MPN" "AP1606"
-			(at -21.59 26.67 0)
+			(at -123.19 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +2975,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at -21.59 26.67 0)
+			(at -123.19 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +2997,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "Q6")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3168,17 +3005,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 73.66 133.35 90)
+		(at 78.74 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "15bb6eff-de99-4dd0-8265-00fd36520270")
-		(property "Reference" "J27"
-			(at 72.136 130.556 90)
+		(uuid "0e975a67-f8c7-45fe-a784-df379a1009c9")
+		(property "Reference" "J26"
+			(at 77.216 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3189,7 +3026,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 72.136 130.048 90)
+			(at 77.216 104.648 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,7 +3038,7 @@
 			)
 		)
 		(property "Footprint" "lib:small_pad"
-			(at 73.66 133.35 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,7 +3049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 133.35 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,7 +3060,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 73.66 133.35 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,12 +3071,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e0605ae-4e73-4bd9-8df0-449069062744")
+			(uuid "6395329a-9167-4799-b3db-432afad2c2c4")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J27")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -3252,11 +3089,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "1805f48f-ebc5-44f3-80fc-5a9b2c8c0784")
-		(property "Reference" "J5"
+		(uuid "1561a574-8def-4fc1-b437-ade1bebf8757")
+		(property "Reference" "J16"
 			(at 72.136 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3313,486 +3150,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c65b329e-c971-4192-8895-10593b9edf12")
+			(uuid "34c7e0e2-7e84-484f-b18f-9bdbcd1516a3")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 66.04 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "1abfff84-9a41-460f-b9dd-d85e9b640e94")
-		(property "Reference" "J24"
-			(at 64.516 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 64.516 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 66.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 66.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b158c14-4343-4cb7-a5c6-6753c2f0b668")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 63.5 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "1fbab83a-03b2-4108-b15c-769509dd82b4")
-		(property "Reference" "J23"
-			(at 61.976 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 61.976 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 63.5 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "757a8637-b686-4ef0-ac21-d1b387541dfd")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 78.74 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "21af130e-2c54-4c86-ae43-8d17b7a5eec0")
-		(property "Reference" "J7"
-			(at 77.216 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 77.216 53.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 78.74 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 78.74 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a3ab1c8-6f77-488d-8e57-e22871a5c80e")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 130.81 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "238cce2c-2cfe-4599-a1da-2449dd70f823")
-		(property "Reference" "J35"
-			(at 129.286 56.896 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 129.286 56.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 130.81 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 130.81 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ecebdf69-26f6-41f5-9fbb-bd9494365881")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 83.82 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "2c99e695-7eea-43da-9acd-0fcf6be3186e")
-		(property "Reference" "J31"
-			(at 82.296 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 82.296 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 83.82 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15e6266c-d8d3-4fad-b5fd-b415e12883ad")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 128.27 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "2e710c72-7361-422b-9fe9-c9789f4e3a4a")
-		(property "Reference" "J34"
-			(at 126.746 56.896 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 126.746 56.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 128.27 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 128.27 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8584844a-c380-44d8-9d88-640d8c71befe")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J34")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -3805,11 +3168,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "31881ae1-d46e-427f-88d3-a39e12831bc1")
-		(property "Reference" "J8"
+		(uuid "1a405aca-ad5e-49eb-8b85-e1d502ebb64d")
+		(property "Reference" "J28"
 			(at 79.756 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3866,12 +3229,249 @@
 			)
 		)
 		(pin "1"
-			(uuid "88b21c64-f156-4165-a9c2-f29c12d3a5af")
+			(uuid "8fbf94b3-38d7-4285-acb6-1aaac62c046d")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J8")
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 71.12 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "1adb59f0-26b9-44b7-9f18-45488fcfc182")
+		(property "Reference" "J12"
+			(at 69.596 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 69.596 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef28f191-9bd4-4d3e-bf2d-a13539c296c6")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "2befed0e-f496-45b8-b1e1-aa402c686446")
+		(property "Reference" "J5"
+			(at 64.516 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 64.516 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 66.04 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30a168cb-d896-4cef-afbe-3d14bd4858f6")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 71.12 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "3450fbe4-bb48-4f6a-a0d2-61577252df7f")
+		(property "Reference" "J15"
+			(at 69.596 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 69.596 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 71.12 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.12 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc3cf71e-20c5-464d-88ff-b852400564c0")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -3889,7 +3489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34cb49da-5a1e-4426-9cd7-8758a9e4c170")
-		(property "Reference" "J42"
+		(property "Reference" "J36"
 			(at 164.1856 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3960,7 +3560,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J42")
+					(reference "J36")
 					(unit 1)
 				)
 			)
@@ -3973,11 +3573,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3b67e72f-9fff-40ad-a96c-4e03c76b69fb")
-		(property "Reference" "J9"
+		(property "Reference" "J31"
 			(at 82.296 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4039,7 +3639,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J9")
+					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -4047,7 +3647,7 @@
 	)
 	(symbol
 		(lib_id "lib:DMN1150UFB-7B")
-		(at 218.44 120.65 0)
+		(at 181.61 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4057,8 +3657,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf74b4a-31ed-47c2-9778-8d8e57c49a4a")
-		(property "Reference" "Q5"
-			(at 223.52 120.6499 0)
+		(property "Reference" "Q2"
+			(at 186.69 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4069,7 +3669,7 @@
 			)
 		)
 		(property "Value" "AP1606"
-			(at 223.52 123.1899 0)
+			(at 186.69 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4080,7 +3680,7 @@
 			)
 		)
 		(property "Footprint" "lib:DFN-3L_L1.0-W0.6-P0.65-BR"
-			(at 218.44 135.89 0)
+			(at 181.61 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4091,7 +3691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 120.65 0)
+			(at 181.61 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +3702,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 120.65 0)
+			(at 181.61 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +3713,7 @@
 			)
 		)
 		(property "LCSC" "C2849580"
-			(at 218.44 138.43 0)
+			(at 181.61 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +3724,7 @@
 			)
 		)
 		(property "MPN" "AP1606"
-			(at -39.37 60.96 0)
+			(at -76.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +3735,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at -39.37 60.96 0)
+			(at -76.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,198 +3757,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 207.01 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3df06bdf-6cb9-4c94-83ef-76768a265af5")
-		(property "Reference" "R23"
-			(at 202.184 127.254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 203.962 127.254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 208.788 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C270364"
-			(at 207.01 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0201WMF1003TEE"
-			(at -144.78 -49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at -144.78 -49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef4c9954-2af7-4ced-8606-0b3b84e4507e")
-		)
-		(pin "2"
-			(uuid "f4aef2a2-a4aa-4dd2-81af-20f31481294e")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 68.58 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "42089b8a-55e7-4cc5-9134-d9f1f39810f3")
-		(property "Reference" "J25"
-			(at 67.056 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 67.056 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 68.58 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3838417e-f9ce-4100-84ef-25aa8f7ae311")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J25")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4361,11 +3770,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "4401bea1-143e-4754-84e4-67727f000c04")
-		(property "Reference" "J11"
+		(uuid "3dbda88d-d9d2-4e87-a709-6c25b5542ae7")
+		(property "Reference" "J13"
 			(at 69.596 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4422,486 +3831,361 @@
 			)
 		)
 		(pin "1"
-			(uuid "b778adc8-b53a-4f53-a060-51b236f64fa8")
+			(uuid "678aa4f5-c04d-4b0a-a85c-78ea36d91e17")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3df06bdf-6cb9-4c94-83ef-76768a265af5")
+		(property "Reference" "R26"
+			(at 165.354 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 167.132 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 171.958 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C270364"
+			(at 170.18 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0201WMF1003TEE"
+			(at -181.61 -59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at -181.61 -59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef4c9954-2af7-4ced-8606-0b3b84e4507e")
+		)
+		(pin "2"
+			(uuid "f4aef2a2-a4aa-4dd2-81af-20f31481294e")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 73.66 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "4b16a24f-46cb-4af4-aa94-8fc6925e7768")
+		(property "Reference" "J19"
+			(at 72.136 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 72.136 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 73.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d4218ce-7668-4550-a8c7-ada3bfa920f6")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 81.28 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "543c39af-cd71-4aee-a059-9a163f9d26b3")
+		(property "Reference" "J30"
+			(at 79.756 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 79.756 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 81.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08a69050-6ef4-400f-9b2f-2a41ced30c19")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 68.58 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "5f1e87a2-b8bb-442f-8c8e-5a170200a0fb")
+		(property "Reference" "J11"
+			(at 67.056 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 67.056 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 68.58 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c7a9333-a5fc-40f0-b1bb-11b6751db40d")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 143.51 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "46c553be-f3d0-466b-9c40-3432f141fb87")
-		(property "Reference" "J40"
-			(at 141.986 56.896 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 141.986 56.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 143.51 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f60a4542-12ec-4081-84a6-2cec7d5197d7")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "48cd0841-d9a6-4e73-bb71-36d7a6f50db3")
-		(property "Reference" "J32"
-			(at 84.836 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 84.836 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 86.36 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b44a44e4-b49a-496c-b1c2-ea24e7817c13")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 138.43 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "5852cc06-ebac-45df-b505-5915692cd22d")
-		(property "Reference" "J38"
-			(at 136.906 56.896 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 136.906 56.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 138.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3552fda5-98b7-435b-a21a-3cc2b9d50c71")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 66.04 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "589ea9a9-7e8e-4d1c-8fa4-3dc2bbc34fe4")
-		(property "Reference" "J2"
-			(at 64.516 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 64.516 53.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 66.04 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 66.04 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7424a366-0189-4328-afbe-279d381e59f6")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 76.2 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "5b20e386-dac8-4521-a2a3-e28e7c1fb801")
-		(property "Reference" "J6"
-			(at 74.676 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 74.676 53.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 76.2 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5036cbc8-9d9a-417a-9963-866543561ef4")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 140.97 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "5cfc87c7-4882-4f63-8b7f-7e27bd1e1fa3")
-		(property "Reference" "J39"
-			(at 139.446 56.896 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 139.446 56.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 140.97 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a80fb51f-f12c-460c-bd25-62f11b54b82d")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J39")
 					(unit 1)
 				)
 			)
@@ -4919,7 +4203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64ef80c4-bab2-4807-8baf-bfcfe7e5d33c")
-		(property "Reference" "J41"
+		(property "Reference" "J35"
 			(at 134.9756 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5002,1269 +4286,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 76.2 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "805a99b0-389a-4469-8577-192a37ef709e")
-		(property "Reference" "J19"
-			(at 74.676 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 74.676 104.648 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 76.2 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9a1d8be-5790-4866-864a-477ea025531d")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 71.12 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "89a97019-4cb7-40f1-ba4b-4fc841ab7628")
-		(property "Reference" "J26"
-			(at 69.596 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 69.596 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 71.12 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32ebde9c-d401-4f78-91ee-2bbe26af9744")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 76.2 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "8a1bd9a8-c625-49f7-a3d4-a5c278a3e870")
-		(property "Reference" "J13"
-			(at 74.676 79.756 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 74.676 79.248 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 76.2 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3bd2e02b-4eeb-4904-96c4-3c9f742e2651")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 71.12 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "94b4b8b3-deee-486a-baf9-06a8828498d0")
-		(property "Reference" "J17"
-			(at 69.596 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 69.596 104.648 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 71.12 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d41f00d7-6b8d-4ce7-96b4-53faba4a9332")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 135.89 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a0c9afc8-8307-4e27-95b5-5cb702ac78eb")
-		(property "Reference" "J37"
-			(at 134.366 56.896 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 134.366 56.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 135.89 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 135.89 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c738717-ac34-4f8d-b7b2-8981e37a9d56")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 73.66 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a574c6ae-b2be-461c-8804-2865f686ad4a")
-		(property "Reference" "J12"
-			(at 72.136 79.756 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 72.136 79.248 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 73.66 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 73.66 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9737e2a5-d3f3-4be3-999e-ae40bc29e1f9")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.22 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5b8b188-1088-46a8-b135-a6deb5555515")
-		(property "Reference" "#PWR029"
-			(at 236.22 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15fd64c1-86d8-476e-9039-1849d86aea9b")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 66.04 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a6c5728c-74b7-479b-b13c-66c564bf1f4f")
-		(property "Reference" "J15"
-			(at 64.516 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 64.516 104.648 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 66.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 66.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1df777f-3f21-42e7-9320-d90efecbe0a3")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "acd1b77a-b8c3-4be5-a25d-2494cdbecc1e")
-		(property "Reference" "#PWR062"
-			(at 218.44 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.4401 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "151254ce-cc95-4ce1-a79c-76b59276c4eb")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 81.28 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "ada63302-d760-41e0-8c1d-0d39440bdbb0")
-		(property "Reference" "J21"
-			(at 79.756 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 79.756 104.648 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 81.28 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d8bf8984-07b1-482a-ad76-8df0e067ac59")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 63.5 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "b4583f75-87f6-4304-84a3-f770f945e6e9")
-		(property "Reference" "J1"
-			(at 61.976 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 61.976 53.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 63.5 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 63.5 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4073c7e0-84ba-4cc5-a999-25854624df8b")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 83.82 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "b9047113-317f-4c7a-aa1e-663073296432")
-		(property "Reference" "J22"
-			(at 82.296 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 82.296 104.648 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 83.82 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77d505f9-3a03-485d-afbd-36cfab6f5a3a")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 76.2 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "b9490eeb-e262-4395-a7a2-8c40f1be3f69")
-		(property "Reference" "J28"
-			(at 74.676 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 74.676 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 76.2 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5580b5d1-585e-49a2-9d13-03eb4e547b43")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 81.28 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "baf998ba-dc2b-476e-865a-63bd1d18632e")
-		(property "Reference" "J30"
-			(at 79.756 130.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 79.756 130.048 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 81.28 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de230662-0258-4e7d-acc3-70eebd8f3ff6")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 68.58 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "bb74a85d-012a-4520-807b-61db0d2dbddb")
-		(property "Reference" "J16"
-			(at 67.056 105.156 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 67.056 104.648 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 68.58 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "577f8bfc-681e-42f4-8fa2-62529499bb5d")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 78.74 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "c974252b-058b-41ed-b70b-c2994c5181f8")
-		(property "Reference" "J14"
-			(at 77.216 79.756 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 77.216 79.248 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lib:small_pad"
-			(at 78.74 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 78.74 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4cd6bee3-e004-4bae-817f-c2a24720eb41")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J14")
+					(reference "J35")
 					(unit 1)
 				)
 			)
@@ -6277,10 +4299,10 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "d2f37233-051e-4a57-a437-94abb745519c")
+		(uuid "6ea5dd6d-3ea4-4f04-9a68-bde1debb7276")
 		(property "Reference" "J18"
 			(at 72.136 105.156 90)
 			(show_name no)
@@ -6338,7 +4360,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6feace8d-fc0e-4ba4-b79c-4da276bc80db")
+			(uuid "e4217fea-2ddd-4f24-ac4f-fcb656fb894e")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
@@ -6350,96 +4372,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 236.22 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8432c93-8395-4c48-80f3-b96b86b13c3d")
-		(property "Reference" "#PWR063"
-			(at 236.22 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 236.22 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 236.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87aadb10-0130-462f-8310-ff7bb17cb52d")
-		)
-		(instances
-			(project "Dreamscape-F405-2020"
-				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 78.74 107.95 90)
+		(at 68.58 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "e1f4d344-af7c-4bc9-b929-1a66fdb7c20c")
-		(property "Reference" "J20"
-			(at 77.216 105.156 90)
+		(uuid "7fedabc4-0dec-4949-b2e4-302a33c1f327")
+		(property "Reference" "J9"
+			(at 67.056 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6450,7 +4394,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 77.216 104.648 90)
+			(at 67.056 79.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,7 +4406,7 @@
 			)
 		)
 		(property "Footprint" "lib:small_pad"
-			(at 78.74 107.95 0)
+			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,7 +4417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 107.95 0)
+			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6484,7 +4428,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 78.74 107.95 0)
+			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6495,7 +4439,323 @@
 			)
 		)
 		(pin "1"
-			(uuid "3759b550-263c-45f5-9a4b-11b1d727e561")
+			(uuid "97b1c455-48b3-4d57-9ab1-d4897d57c17b")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 76.2 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "832880fd-d1ca-472c-98bf-8d87f0096c65")
+		(property "Reference" "J23"
+			(at 74.676 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 74.676 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 76.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 76.2 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d34871b5-ad74-4862-b447-c99fe9cc5269")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 68.58 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "879a7c7e-0e6e-47b8-8ea6-f18b384150a2")
+		(property "Reference" "J10"
+			(at 67.056 105.156 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 67.056 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bc8c20a-5d50-4aed-ace8-0d7e7371057b")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "90a2f38a-e82f-4c13-88d9-229e58209788")
+		(property "Reference" "J6"
+			(at 64.516 105.156 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 64.516 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 66.04 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6589ea6-fd86-48d0-8f5f-6f2f0c1b88ea")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 76.2 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "95f96678-f0f4-4df2-bd41-14fcfdc1f79f")
+		(property "Reference" "J20"
+			(at 74.676 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 74.676 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45b9fd82-9752-4fe6-a800-637b1c9520bb")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
@@ -6507,18 +4767,288 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 134.62 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b8b188-1088-46a8-b135-a6deb5555515")
+		(property "Reference" "#PWR072"
+			(at 134.62 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15fd64c1-86d8-476e-9039-1849d86aea9b")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acd1b77a-b8c3-4be5-a25d-2494cdbecc1e")
+		(property "Reference" "#PWR073"
+			(at 181.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.6101 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "151254ce-cc95-4ce1-a79c-76b59276c4eb")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afca80e3-f506-4e7a-bbb2-04044fdf0085")
+		(property "Reference" "R24"
+			(at 73.66 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510R"
+			(at 73.66 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 69.342 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C57784"
+			(at 71.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at -181.61 -36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at -181.61 -36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8338e30-1bcd-4192-a93a-b5217ff51dd8")
+		)
+		(pin "2"
+			(uuid "52f05fee-11d3-4ac5-9ed8-865e31c2097f")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 125.73 59.69 90)
+		(at 86.36 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "ede30d43-248c-48d7-bada-d91165225414")
-		(property "Reference" "J33"
-			(at 124.206 56.896 90)
+		(uuid "b465fcc1-ea93-44f8-9207-97c1a958ea1d")
+		(property "Reference" "J34"
+			(at 84.836 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6529,7 +5059,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 124.206 56.388 90)
+			(at 84.836 130.048 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6541,7 +5071,7 @@
 			)
 		)
 		(property "Footprint" "lib:small_pad"
-			(at 125.73 59.69 0)
+			(at 86.36 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,7 +5082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 59.69 0)
+			(at 86.36 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6563,7 +5093,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 59.69 0)
+			(at 86.36 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6574,12 +5104,170 @@
 			)
 		)
 		(pin "1"
-			(uuid "6234413b-184f-4278-bce8-93938acca1d3")
+			(uuid "db47a0bb-882f-4372-80df-7a2e7bc0127a")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J33")
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 63.5 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b8e174e0-c349-4cb8-8ae5-415c947a8246")
+		(property "Reference" "J4"
+			(at 61.976 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 61.976 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6955709e-343a-4641-a984-66a0f229a4a6")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "bdac84fa-8260-46da-bd78-beebd5c64f2b")
+		(property "Reference" "J7"
+			(at 64.516 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 64.516 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 66.04 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fad6f2b-2d75-410b-819b-aa9f3480f9e8")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6592,11 +5280,11 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "f1a3bf56-74c9-430b-a13c-3d638b13b35c")
-		(property "Reference" "J29"
+		(uuid "c3039d97-033b-458e-89fc-1225a25dfc41")
+		(property "Reference" "J27"
 			(at 77.216 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6653,7 +5341,244 @@
 			)
 		)
 		(pin "1"
-			(uuid "33d13ea9-186c-43dd-9d96-cdca32796070")
+			(uuid "48288696-8640-427c-826c-d0d3c4c483a9")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 63.5 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "c4203149-48e1-4823-928a-fe4541fb9e15")
+		(property "Reference" "J3"
+			(at 61.976 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 61.976 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 63.5 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5e08177-8983-4141-89ea-8f32c48c2cb5")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 78.74 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "c5da1dcc-bd05-4c47-a1e9-81f9cde12991")
+		(property "Reference" "J24"
+			(at 77.216 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 77.216 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 78.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c68d83e9-6989-4cf0-866b-b51605d5ba0f")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 81.28 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "cc0fffd6-a28e-498a-9742-4dd8ad689db4")
+		(property "Reference" "J29"
+			(at 79.756 105.156 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 79.756 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 81.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c79eeaef-9604-4c7f-8154-1281ecd71331")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
@@ -6666,17 +5591,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 71.12 57.15 90)
+		(at 68.58 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(uuid "f8ac6dd9-b234-41c8-a9e9-f1b4e1817596")
-		(property "Reference" "J4"
-			(at 69.596 54.356 90)
+		(uuid "cc95dae9-3623-4487-a25c-f2b84e14ed4d")
+		(property "Reference" "J8"
+			(at 67.056 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6687,7 +5612,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 69.596 53.848 90)
+			(at 67.056 53.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +5624,7 @@
 			)
 		)
 		(property "Footprint" "lib:small_pad"
-			(at 71.12 57.15 0)
+			(at 68.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6710,7 +5635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 57.15 0)
+			(at 68.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +5646,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 57.15 0)
+			(at 68.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,53 +5657,53 @@
 			)
 		)
 		(pin "1"
-			(uuid "c21d0aa0-6e10-4ea8-8105-dde29728062a")
+			(uuid "f3dd85b8-b0bd-48d4-95fe-8484c912659e")
 		)
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "J4")
+					(reference "J8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 236.22 73.66 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 83.82 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa81c357-3d69-474f-af3c-89191a647951")
-		(property "Reference" "R51"
-			(at 238.76 72.3899 0)
+		(dnp yes)
+		(uuid "d0a862cc-4173-4ac5-a28f-de3dd3a1686f")
+		(property "Reference" "J32"
+			(at 82.296 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 238.76 74.9299 0)
+		(property "Value" "5V"
+			(at 82.296 104.648 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 234.442 73.66 90)
+		(property "Footprint" "lib:small_pad"
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6789,7 +5714,480 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 73.66 0)
+			(at 83.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06d3e1d8-b39a-4061-ba52-e656503f91dd")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 134.62 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8432c93-8395-4c48-80f3-b96b86b13c3d")
+		(property "Reference" "#PWR071"
+			(at 134.62 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 134.62 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87aadb10-0130-462f-8310-ff7bb17cb52d")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 76.2 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e5330fd7-87df-4b51-9cca-aec61161326e")
+		(property "Reference" "J22"
+			(at 74.676 105.156 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 74.676 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 76.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 76.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3284b408-763b-4162-ae7a-2ef057b5b243")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 83.82 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "ea91d247-233a-4d9e-9c3f-52211ae9ec36")
+		(property "Reference" "J33"
+			(at 82.296 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 82.296 130.048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 83.82 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b70a98c4-4ecf-4244-aa20-c2061e7c7265")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 71.12 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "efbc3df0-5a29-4286-b585-a47c65d086e8")
+		(property "Reference" "J14"
+			(at 69.596 105.156 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 69.596 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 71.12 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.12 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d08ee05-ce02-459c-a621-795a1a336eb8")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 76.2 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "f37b24d2-eafa-4d07-92e1-d1fa813eced2")
+		(property "Reference" "J21"
+			(at 74.676 79.756 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 74.676 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:small_pad"
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "596e0b78-dc43-4022-80e2-5d3102540a4e")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa81c357-3d69-474f-af3c-89191a647951")
+		(property "Reference" "R25"
+			(at 137.16 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 137.16 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 132.842 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6800,7 +6198,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 73.66 0)
+			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,7 +6209,7 @@
 			)
 		)
 		(property "LCSC" "C166281"
-			(at 236.22 73.66 0)
+			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6822,7 +6220,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at -21.59 34.29 0)
+			(at -123.19 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,7 +6231,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at -21.59 34.29 0)
+			(at -123.19 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,7 +6250,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/751416e7-ec29-42f1-afce-afcb25b80923"
-					(reference "R51")
+					(reference "R25")
 					(unit 1)
 				)
 			)

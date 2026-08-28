@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.12,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.15,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -142,9 +142,9 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.1,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -152,10 +152,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -495,21 +495,21 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -656,7 +656,7 @@
         "uuid": "97210a04-f116-4730-b66b-a4a0966edab8"
       }
     ],
-    "used_designators": "P1,J1-42,R1-2,R9,R23,R27-34,R36,R39,R49-53,Card1,D2-7,C1-4,C22,C24-30,C32,C34,C36-39,C43,L2-3,Y1,#PWR1-35,#PWR47,#PWR56,#PWR60-63,#PWR66-67,#PWR71,#PWR75,#PWR104,#PWR109-110,#PWR112,#PWR129,#PWR131-134,#PWR153-157,Q5-6,U1-8",
+    "used_designators": "SW1-2,H1-4,Q1-2,Q5-6,#PWR1-75,#PWR104,#PWR109-110,#PWR112,#PWR129,#PWR131-134,#PWR153-157,#PWR160-161,Y1,C1-30,C32-39,C43,U1-12,D1-8,X1,Card1,R1-34,R36-41,R49-53,J1-81,P1,L1-3",
     "variants": []
   },
   "sheets": [
@@ -687,6 +687,10 @@
     [
       "751416e7-ec29-42f1-afce-afcb25b80923",
       "Pads"
+    ],
+    [
+      "8f1caec5-e7dc-4bff-98f4-17438e84cd0e",
+      "USB"
     ]
   ],
   "text_variables": {},

@@ -1232,7 +1232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a2c0ce3-f249-4741-a479-20effb88d3de")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR040"
 			(at 95.25 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -1292,7 +1292,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/505a8c64-a928-427e-9c04-823b276ca53f"
-					(reference "#PWR0153")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1310,7 +1310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "409d61ee-023e-4f40-b28f-6fd5de8a958d")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR038"
 			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -1370,7 +1370,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/505a8c64-a928-427e-9c04-823b276ca53f"
-					(reference "#PWR0155")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1388,7 +1388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8197492c-0816-4394-8563-6d32f29a9374")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR039"
 			(at 74.93 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1448,7 +1448,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/505a8c64-a928-427e-9c04-823b276ca53f"
-					(reference "#PWR0154")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1465,7 +1465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c3d547f-3128-48bc-bf51-1ec1a749b515")
-		(property "Reference" "C43"
+		(property "Reference" "C16"
 			(at 61.976 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1561,7 +1561,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/505a8c64-a928-427e-9c04-823b276ca53f"
-					(reference "C43")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1579,7 +1579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f59ea4-1ea4-4aff-a60c-4192a4ea359d")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR037"
 			(at 54.61 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -1640,7 +1640,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/505a8c64-a928-427e-9c04-823b276ca53f"
-					(reference "#PWR060")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1657,7 +1657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c66d2ea2-d146-4480-9bd5-456a858d82d7")
-		(property "Reference" "R39"
+		(property "Reference" "R13"
 			(at 100.33 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +1752,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/505a8c64-a928-427e-9c04-823b276ca53f"
-					(reference "R39")
+					(reference "R13")
 					(unit 1)
 				)
 			)

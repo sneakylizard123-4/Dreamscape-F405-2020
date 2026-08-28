@@ -1728,6 +1728,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3VA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -2161,6 +2300,12 @@
 		(uuid "1414cd65-0ec4-4319-a414-7c45288a680b")
 	)
 	(junction
+		(at 186.69 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f3b8996-175b-44f8-83a0-05240013dfbd")
+	)
+	(junction
 		(at 87.63 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2191,6 +2336,12 @@
 		(uuid "3eb0df24-2675-411e-ab75-92ee274f630b")
 	)
 	(junction
+		(at 175.26 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4513147b-fd53-449e-96ba-71374e84bfd1")
+	)
+	(junction
 		(at 87.63 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2207,6 +2358,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5201ca9c-eb10-403f-95b1-54115a64f7c9")
+	)
+	(junction
+		(at 165.1 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55687321-a411-4929-a3ab-d2d49720d6b7")
 	)
 	(junction
 		(at 72.39 81.28)
@@ -2257,10 +2414,22 @@
 		(uuid "98075e45-6402-480b-bab6-6a4aa689dbc2")
 	)
 	(junction
+		(at 147.32 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6fadbb7-6c8f-4eb9-86de-5707091ad0c0")
+	)
+	(junction
 		(at 139.7 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b24616ee-0de6-4158-a65f-67385a951c74")
+	)
+	(junction
+		(at 156.21 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9596258-224a-4276-862f-0b794861109f")
 	)
 	(junction
 		(at 41.91 121.92)
@@ -2305,6 +2474,12 @@
 		(uuid "eb2bc521-3055-40e1-8db0-1cf48c832c33")
 	)
 	(junction
+		(at 175.26 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed47ad46-c6c3-404b-9fa8-7f2f29919e92")
+	)
+	(junction
 		(at 139.7 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2325,6 +2500,16 @@
 	(no_connect
 		(at 138.43 161.29)
 		(uuid "8531db42-5b80-49d3-aa69-c4f9f83f2145")
+	)
+	(wire
+		(pts
+			(xy 156.21 50.8) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01042f80-b3da-4bf4-b097-130350086860")
 	)
 	(wire
 		(pts
@@ -2375,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "0da1e91e-95a3-4d79-a4df-219e0a4e1e56")
+	)
+	(wire
+		(pts
+			(xy 186.69 66.04) (xy 186.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1008be1a-90df-42f2-b2d3-9dffe07e0ae5")
 	)
 	(wire
 		(pts
@@ -2445,6 +2640,16 @@
 			(type default)
 		)
 		(uuid "1f023ca8-6276-43a3-853a-4467c4fd9875")
+	)
+	(wire
+		(pts
+			(xy 165.1 58.42) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20aee238-170a-493a-a7c5-66bf528606f8")
 	)
 	(wire
 		(pts
@@ -2525,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "385d6556-39f8-4b90-9edb-e3f73443a00c")
+	)
+	(wire
+		(pts
+			(xy 147.32 46.99) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c23ad37-f55e-4d2d-8240-e1ef547a1535")
 	)
 	(wire
 		(pts
@@ -2628,6 +2843,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 49.53) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4621d2f0-88a7-4b2a-b012-4072f5832dc3")
+	)
+	(wire
+		(pts
 			(xy 43.18 124.46) (xy 41.91 124.46)
 		)
 		(stroke
@@ -2648,6 +2873,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 57.15) (xy 175.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e70d61-39c8-4171-9fc5-9bab840c72bd")
+	)
+	(wire
+		(pts
+			(xy 147.32 57.15) (xy 147.32 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5be4e3-4147-48e5-ad1c-49678519d233")
+	)
+	(wire
+		(pts
 			(xy 40.64 78.74) (xy 40.64 83.82)
 		)
 		(stroke
@@ -2665,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "4ef6b079-6bc2-4606-857c-8df1efbbc250")
+	)
+	(wire
+		(pts
+			(xy 147.32 48.26) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f63248d-cbf4-475b-bfcb-d84796051efe")
 	)
 	(wire
 		(pts
@@ -2898,6 +3153,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 48.26) (xy 175.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ec84ee-5257-49a5-a283-22bf94e8b91b")
+	)
+	(wire
+		(pts
 			(xy 33.02 121.92) (xy 33.02 123.19)
 		)
 		(stroke
@@ -2968,6 +3233,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 48.26) (xy 147.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9801cf44-357f-40e4-a4b2-aedf34157da1")
+	)
+	(wire
+		(pts
 			(xy 62.23 36.83) (xy 63.5 36.83)
 		)
 		(stroke
@@ -2995,6 +3270,16 @@
 			(type default)
 		)
 		(uuid "9bd711ae-ffe0-40da-bcb0-3d2c3e680045")
+	)
+	(wire
+		(pts
+			(xy 175.26 48.26) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9beef339-2a4b-4cfc-8e45-832d6a72dfc5")
 	)
 	(wire
 		(pts
@@ -3068,6 +3353,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 48.26) (xy 175.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64f5fba-e83c-449f-b597-6a65fc5d39a9")
+	)
+	(wire
+		(pts
+			(xy 156.21 48.26) (xy 157.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7339a8b-ac01-4bfd-a7b4-49794403e20e")
+	)
+	(wire
+		(pts
 			(xy 58.42 121.92) (xy 60.96 121.92)
 		)
 		(stroke
@@ -3128,6 +3433,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 67.31) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c87065-de12-4e0a-be6d-5a4ff108fc92")
+	)
+	(wire
+		(pts
 			(xy 41.91 36.83) (xy 29.21 36.83)
 		)
 		(stroke
@@ -3148,6 +3463,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 67.31) (xy 175.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0b4e99-6183-4052-9b2a-8ab27844f95f")
+	)
+	(wire
+		(pts
 			(xy 109.22 80.01) (xy 109.22 81.28)
 		)
 		(stroke
@@ -3155,6 +3480,36 @@
 			(type default)
 		)
 		(uuid "cf4a8246-aef0-4eab-84ce-60a57f0614a2")
+	)
+	(wire
+		(pts
+			(xy 186.69 57.15) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0584fb0-8744-42fe-ac2a-3c524c5e2a64")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 186.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f4143b-f2de-41a8-91d9-df62c05e8b69")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d104e942-e3d5-4387-b1d8-2fabfe1ff907")
 	)
 	(wire
 		(pts
@@ -3288,6 +3643,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 46.99) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33595dd-3c31-4265-8b42-a346e35756a5")
+	)
+	(wire
+		(pts
 			(xy 109.22 48.26) (xy 109.22 50.8)
 		)
 		(stroke
@@ -3389,7 +3754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0093d557-3a95-47cd-be37-8af2023cb70d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 29.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3449,7 +3814,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3467,7 +3832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "026ca6b8-4d48-44db-9b04-92b919dfc4a4")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 72.39 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3527,7 +3892,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3545,7 +3910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0322df37-a306-4d6b-9615-783c1d3af441")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 113.03 54.9274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +4007,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3660,7 +4025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "040b4ce7-13b1-4ca5-a204-9be2616d1c79")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR016"
 			(at 116.84 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -3721,7 +4086,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR067")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3739,7 +4104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09657412-7c75-4c3e-ac0d-7e8841cc150d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR017"
 			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3799,7 +4164,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR012")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3817,7 +4182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bc35426-fd62-44a3-9681-a6d099f51423")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 33.02 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3877,7 +4242,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3894,7 +4259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "160f0a9d-15e8-478d-9062-634e77b758c5")
-		(property "Reference" "R31"
+		(property "Reference" "R4"
 			(at 82.804 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,7 +4354,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R31")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4007,7 +4372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "174053b0-9064-4329-b3fe-a9472033a5c1")
-		(property "Reference" "C24"
+		(property "Reference" "C1"
 			(at 33.02 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,7 +4469,85 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C24")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c74044c-308c-4bd0-a0be-a65e42c595eb")
+		(property "Reference" "#PWR022"
+			(at 165.1 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c12c6aad-149e-4c7e-a9e3-2446bf75cac3")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2497536d-14c9-4ac2-b2f9-86caed38dd9b")
-		(property "Reference" "C34"
+		(property "Reference" "C4"
 			(at 64.77 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4219,7 +4662,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C34")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4236,7 +4679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "355fc876-4b5b-4e6d-a9fd-1bfaf8da20e5")
-		(property "Reference" "C32"
+		(property "Reference" "C3"
 			(at 33.02 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,7 +4775,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C32")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4349,7 +4792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35d19206-6c6d-4112-b161-8e30a0204114")
-		(property "Reference" "R29"
+		(property "Reference" "R2"
 			(at 82.804 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4444,7 +4887,122 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R29")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38fc7292-2a02-4e10-9bbd-722df2ba8c3c")
+		(property "Reference" "R10"
+			(at 189.23 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510R"
+			(at 189.23 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 184.912 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C57784"
+			(at 186.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at -66.04 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at -66.04 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63c20a99-aac4-4aaa-a4ee-c314759a6476")
+		)
+		(pin "2"
+			(uuid "a2b73993-2b08-46e2-919b-4a8992c3bcea")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4462,7 +5020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d219d32-a04c-4761-9595-3972b77aa54c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 29.21 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4522,7 +5080,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4539,7 +5097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41231b57-0434-4ec1-b19c-09da895ca52f")
-		(property "Reference" "C26"
+		(property "Reference" "C5"
 			(at 64.77 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4635,7 +5193,85 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C26")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b867781-a599-4e38-9630-6a010376d95b")
+		(property "Reference" "#PWR020"
+			(at 147.32 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8787df34-3641-46f5-891b-b6905cb1a244")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4652,7 +5288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5000dc7b-6b69-4c2e-bdb8-a16904df55d5")
-		(property "Reference" "C27"
+		(property "Reference" "C6"
 			(at 64.77 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,7 +5384,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C27")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4766,7 +5402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d37adbb-561c-4f1a-b93a-deb3348f4c6a")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 81.28 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +5497,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4879,7 +5515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a0c0045-caea-468f-a2c9-092992b0df22")
-		(property "Reference" "R36"
+		(property "Reference" "R1"
 			(at 74.93 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +5612,85 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R36")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 186.69 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c9b3923-d0c8-44da-913e-26fe91764bec")
+		(property "Reference" "#PWR024"
+			(at 186.69 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 186.69 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 186.69 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69d93430-4ff9-4260-8bd8-453df7e970ad")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4994,7 +5708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82d75793-5bcd-409e-82b2-7c23ca829541")
-		(property "Reference" "C29"
+		(property "Reference" "C8"
 			(at 101.6 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,7 +5805,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C29")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5109,7 +5823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "864be93b-148d-45d8-acf2-15810094a7d9")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 52.07 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5185,7 +5899,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5203,7 +5917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f2c94f-e664-43d0-b224-fe8de14945ca")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR023"
 			(at 165.1 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5263,7 +5977,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR013")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5280,7 +5994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "967987e3-2b83-4931-b5ea-ef7cecd4aec9")
-		(property "Reference" "R27"
+		(property "Reference" "R6"
 			(at 89.154 146.304 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,7 +6089,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R27")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5393,7 +6107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97977484-332c-4654-a422-5d196882510f")
-		(property "Reference" "C25"
+		(property "Reference" "C2"
 			(at 33.02 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5490,7 +6204,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C25")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5508,7 +6222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd7cca1-63e4-47c3-9e58-3c5c7402504d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR015"
 			(at 109.22 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5568,7 +6282,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR07")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5586,7 +6300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fdd4e18-b9ca-4956-a87b-1cd6c595e664")
-		(property "Reference" "R28"
+		(property "Reference" "R7"
 			(at 96.52 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5683,7 +6397,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R28")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5701,7 +6415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0f4eb15-3c28-4a96-a2c1-03b5867532d2")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 113.03 96.8374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +6512,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5816,7 +6530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a252da7a-a6fc-4959-a4c7-c8c381484aae")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 50.8 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5876,7 +6590,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5894,7 +6608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8b8ee48-36a6-409c-876a-17d38cc25ea9")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 52.07 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5970,7 +6684,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5988,7 +6702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3b28c1-9386-4b8a-a234-cb8cc05fb14d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6048,7 +6762,122 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR03")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af1a1358-920d-4e37-b4ac-c24760125001")
+		(property "Reference" "C11"
+			(at 179.07 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 179.07 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 176.2252 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C415703"
+			(at 175.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R60J226ME11D"
+			(at -58.42 -55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at -58.42 -55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc446a34-e531-4d01-bee3-b5b7a729e478")
+		)
+		(pin "2"
+			(uuid "d70ec9b4-6564-483f-a06a-05fa88953fd7")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6066,7 +6895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4285807-05c8-4e06-bd68-df7fdd9c5766")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 81.28 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +6990,210 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "L2")
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b539c975-995a-405e-9d79-ee27702bdd9a")
+		(property "Reference" "C9"
+			(at 147.32 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 150.622 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 148.2852 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76939"
+			(at 147.32 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
+			(at -50.8 -55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at -50.8 -55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e038334d-6bda-4a30-afa7-a1d80ebca6b1")
+		)
+		(pin "2"
+			(uuid "bac3d3d2-25a7-47d9-90eb-3dfcd9f13289")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV75733PDBV")
+		(at 165.1 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b900d198-a22f-4cfa-83a1-2a8f179a1ba6")
+		(property "Reference" "U5"
+			(at 165.1 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75733PDBV"
+			(at 165.1 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 165.1 42.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
+			(at 165.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b914ae35-24bd-4466-89ee-add2d5e57c2b")
+		)
+		(pin "4"
+			(uuid "2c48173b-15c5-41b9-99e0-e363ab1a1da9")
+		)
+		(pin "2"
+			(uuid "9792512c-abb3-48cc-ba23-eed6fe1fada9")
+		)
+		(pin "5"
+			(uuid "92b9977b-3870-490c-9aff-a4b22cc225e0")
+		)
+		(pin "1"
+			(uuid "e034eccd-cf90-402b-8251-a3d161116b9b")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6178,7 +7210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc366ad2-23a7-4191-8c53-96258e8e03da")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 127 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6291,7 +7323,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6308,7 +7340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcd21216-ca63-4c6f-a5c1-4a3adbc82344")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 127 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +7435,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6421,7 +7453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bead92e5-67cd-4561-9074-505a428b3f74")
-		(property "Reference" "R30"
+		(property "Reference" "R3"
 			(at 90.17 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +7550,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R30")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6536,7 +7568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0d9cfb2-587a-4502-879d-4e1c13665eca")
-		(property "Reference" "C28"
+		(property "Reference" "C7"
 			(at 101.6 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6633,7 +7665,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C28")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6651,7 +7683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c27abd06-2958-4958-9532-8b137f40a262")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 76.2 136.2074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,7 +7780,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6766,7 +7798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2c31c08-03b4-4e80-8772-46b2659fd678")
-		(property "Reference" "R32"
+		(property "Reference" "R5"
 			(at 90.17 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,7 +7895,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R32")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6881,7 +7913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c597997d-d79d-4f8a-9728-61a0867aca8f")
-		(property "Reference" "C30"
+		(property "Reference" "C10"
 			(at 156.21 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6978,7 +8010,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "C30")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6996,7 +8028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9c97cb3-4d34-41d5-8fc0-c2638d3855c3")
-		(property "Reference" "R33"
+		(property "Reference" "R8"
 			(at 111.76 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7093,7 +8125,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R33")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7111,7 +8143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ee8a7a-f5b3-46f7-b59d-5c8d15273967")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR021"
 			(at 152.4 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7171,7 +8203,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR075")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7189,7 +8221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfec1e54-5840-4303-a90d-bf62af8d6798")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR019"
 			(at 139.7 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7249,7 +8281,122 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR011")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d92d0ba6-0d4a-4c91-b49b-b1de529940c5")
+		(property "Reference" "D6"
+			(at 190.5 62.5474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_1_Green"
+			(at 190.5 65.0874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 186.69 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C965793"
+			(at 186.69 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1005UGC "
+			(at -120.65 -7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at -120.65 -7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8a073ea-2b34-4ff3-a644-0551313d965a")
+		)
+		(pin "1"
+			(uuid "48e10371-b6df-47b4-bc52-ddfba86bf081")
+		)
+		(instances
+			(project "Dreamscape-F405-2020"
+				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7267,7 +8414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de166fc7-18a1-4650-a97d-5277ca76a36c")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR013"
 			(at 93.98 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7327,7 +8474,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR066")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7344,7 +8491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "def5a140-03a9-4cee-a95c-c0d1947486e1")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 152.4 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7439,7 +8586,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7457,7 +8604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0a260d9-3e5a-413a-97e9-f5936e1eacbd")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR018"
 			(at 127 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7517,7 +8664,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR071")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7535,7 +8682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb2580c2-8d89-45e7-af1d-665b79ce78a7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 52.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7595,7 +8742,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7613,7 +8760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3afe737-fc8e-470d-9c1e-c48a34d52fc4")
-		(property "Reference" "R34"
+		(property "Reference" "R9"
 			(at 111.76 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,7 +8857,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "R34")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7728,7 +8875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6e01b66-4350-4ce0-a3c1-1bb5e8e04ca0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR014"
 			(at 109.22 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7788,7 +8935,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "#PWR04")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7806,7 +8953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea9e5f3-03b0-470b-b4e2-194529b5d82c")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 50.8 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7878,7 +9025,7 @@
 		(instances
 			(project "Dreamscape-F405-2020"
 				(path "/97210a04-f116-4730-b66b-a4a0966edab8/df53c480-5bfe-496d-a1c6-45f2fb01d2fa"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
