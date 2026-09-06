@@ -1,0 +1,7 @@
+# KiCad autosave history (internal git repo, regrows on every save)
+kicad/.history/
+# KiCad crash-restore backups
+_restore_backup_*/
+# Editor swap files
+*.swp
+DESIGN_REVIEW.md
