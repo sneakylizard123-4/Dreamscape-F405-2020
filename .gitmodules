@@ -1,0 +1,3 @@
+[submodule "firmware/betaflight"]
+	path = firmware/betaflight
+	url = https://github.com/betaflight/betaflight.git
