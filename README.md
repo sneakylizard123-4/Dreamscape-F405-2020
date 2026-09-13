@@ -6,7 +6,7 @@ A 20 x 20 mm flight control board for a DIY FPV quad, designed and routed from s
 
 ## Why I made this
 
-I kept seeing the insides of flight controllers on other people's builds and had no idea what most of it was. So instead of buying one, I decided to build my own and actually learn it: reading the gyro and regulator datasheets, picking parts, drawing the schematic, and routing the board by hand. The goal is to get a quad in the air running on a board I made myself, not something I ordered as a black box.
+I'm planning on making a 3" FPV drone and i needed a FC for it
 
 ## Pictures
 
