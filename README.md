@@ -1,16 +1,15 @@
 # Dreamscape F405
 
-A 20 x 20 mm flight control board for a DIY FPV quad, designed and routed from scratch in KiCad around an STM32F405. It has an ICM-42688-P gyro, BMP280 barometer, an AT7456E analog OSD, a microSD blackbox, a firmware-switchable 10 V rail for the camera/VTX, and a dedicated plug for an ExpressLRS receiver.
+a 20x20mm flight controller for 3" fpv drone
 
 ![PCB render](images/render-top.png)
 
 ## Why I made this
 
-I'm planning on making a 3" FPV drone and i needed a FC for it
+would be a nice portfolio project
+if it works i save lots of money too
 
 ## Pictures
-
-Full schematic, one image per sheet:
 
 | Page | Sheet |
 |---|---|
@@ -22,24 +21,23 @@ Full schematic, one image per sheet:
 | 6 | [STM32](images/schematic/Dreamscape-F405-2020-STM32.png) |
 | 7 | [Pads / connectors](images/schematic/Dreamscape-F405-2020-Pads.png) |
 | 8 | [USB](images/schematic/Dreamscape-F405-2020-USB.png) |
-<!-- TODO: add photos of soldering/build + a 3D render of the finished board -->
 
 ## Features
 
-- **MCU**: STM32F405RGT-class (STM32F405VGT6), 168 MHz Cortex-M4, LQFP-100
-- **IMU**: TDK InvenSense ICM-42688-P on SPI1, INT1/INT2 wired
-- **Barometer**: Bosch BMP280 on SPI1 (separate CS)
-- **OSD**: AT7456E (MAX7456-compatible) on SPI2 with 27 MHz crystal, CAM in -> OSD -> VTX out
-- **Blackbox**: full-size microSD slot on SPI3
-- **Receiver**: dedicated JST-SH 4-pin ExpressLRS connector (5V/GND/TX/RX)
-- **UARTs**: 4 exposed (T1/R1, T2/R2, T3/R3, T6/R6) plus I2C pads (SDA/SCL)
+- **MCU**: STM32F405VGT6
+- **IMU**: ICM-42688-P
+- **Barometer**: BMP280
+- **OSD**: AT7456E (MAX7456-compatible)
+- **Blackbox**: full-size microSD slot
+- **Receiver**: dedicated JST-SH 4-pin ExpressLRS connector
+- **UARTs**: 4 exposed plus I2C pads
 - **Power**:
-  - Battery input up to ~6S (LMR51430 bucks are rated to 36 V in)
-  - 5 V rail: onboard buck, auto-switched with USB 5 V through a TPS2116 power mux
+  - Battery input up to 6S
+  - 5 V rail: onboard buck regulator
   - 3.3 V rail: TLV75733 LDO
-  - 10 V rail: separate buck, firmware-switchable (`10V_EN`) to feed camera/VTX
+  - 10 V rail: separate buck to feed camera/VTX
   - Onboard battery voltage ADC divider and ESC current sensor input
-- **Extras**: beeper driver, addressable LED strip driver, status LEDs
+- **Extras**: beeper driver, neopixel LED strip driver, status LEDs
 
 ## Power tree
 
@@ -80,34 +78,21 @@ Connectors:
 
 ## Assembly
 
-1. Solder the smallest/hardest parts first while the board is flat: all 0201 resistors and capacitors, then diodes and LEDs.
-2. Solder the ICs: STM32F405 (LQFP-100, use plenty of flux and drag solder), ICM-42688-P, BMP280, AT7456E, the two LMR51430 bucks, TLV75733 LDO, TPS2116 mux, and the transistor drivers.
-3. Solder the 27 MHz crystal and the two power inductors.
-4. Solder the microSD slot and both JST-SH connectors.
-5. Inspect everything under magnification, then check for shorts between rails and GND with a multimeter before applying power.
-6. First power-up: connect USB only (do NOT connect a battery). Verify 5 V and 3.3 V rails come up and the green power LEDs light.
-7. Flash firmware over USB DFU or ST-Link (see below), confirm the board enumerates and the gyro is detected before connecting battery/motors.
+you probably should get pcba
+
+solder front side first.
+hand solder back side
 
 ## Flashing
 
-The F405 has a USB DFU bootloader built into ROM, so you can flash with no external tools:
-
-```sh
-# enter DFU bootloader, then:
-dfu-util -a 0 -d 0483:df11 -D betaflight_xxx.bin --dfuse-address 0x08000000:leave
-```
-
-Or just drag the `.bin` onto the mounted DFU drive using the Betaflight Configurator firmware flasher.
+drag the `.bin` onto the mounted DFU drive using the Betaflight Configurator firmware flasher.
 
 Notes:
-
-- This is a custom board, so it needs its own Betaflight unified target config (`config.h`) mapping: SPI1 = gyro/baro, SPI2 = OSD, SPI3 = SD card, plus the UART/timer/beeper/LED pin map.
-- If DFU is not accessible (BOOT0 strap), flash via SWD with an ST-Link and `STM32_Programmer_CLI` or OpenOCD instead.
+- If DFU is not accessible, flash via SWD with an ST-Link and `STM32_Programmer_CLI` or OpenOCD instead.
 
 ## Known Issues
 
-- Board hasn't been manufactured or powered up yet, so everything past layout is untested.
-- 20 x 20 mm is a tight squeeze - expect fiddly soldering on this one.
+- Board hasn't been manufactured yet.
 
 ## Credits
 
